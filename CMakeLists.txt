@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.20)
+project(Methods_Of_Solving_Of_Nonlinear_Equations)
+set(CMAKE_CXX_STANDARD 23)
+set(PROJECT_SOURCES main.cpp numeric_engine.h numeric_engine.cpp numeric_method.h iteration_method.h iteration_method.cpp newton_method.h newton_method.cpp modified_newton_method.h modified_newton_method.cpp resources.h function.h function.cpp)
+add_executable(${PROJECT_NAME} ${PROJECT_SOURCES})
